@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Fig. 2.11: lista.html -->
+<!-- Listas anidadas y listas desordenadas. -->
+
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Listas</title>
+    </head>
+
+    <body>
+        <!--Boton regresar inicio-->
+        <h1> <a href="../index.html"><img src = "Imagenes/home.png" width="65" height="50" alt = "Inicio"></a></h1>
+        <h1>Las mejores caracter&iacute;sticas de Internet</h1>
+
+        <!-- crear una lista desordenada -->
+
+        <ul>
+            <li> Puede concer nuevas personas de pa&iacute;ses de todo el mundo. </li>
+            <li>
+                <!-- esto empieza una lista desordenada anidada, que usa una
+                viñeta distinta. La lista termina al cerrar la etiqueta-->
+                Tiene acceso a los nuevos medios a medida que se hacen p&uacute;blicos: 
+                <ul>
+                    <li>Nuevos Juegos</li>
+                    <li>Nuevas aplicaciones
+
+                        <!-- lista ordenada anidada-->
+                        <ol>
+                            <li>Por negocios</li>
+                            <li>Por placer</li>
+                        </ol>
+                    </li>
+                    <!-- termina elemento li que inicio en la linea 27 y que llama a nuevas aplicaciones -->
+                    <li>Noticias las 24 horas</li>
+                    <li>Motores de b&uacute;squeda</li>
+                    <li>Compras</li>
+                    <li>Programaci&oacute;n
+                        <ol>
+                            <li>XML</li>
+                            <li>Java</li>
+                            <li>HTML5</li>
+                            <li>JavaScrip</li>
+                            <li>Nuevos lenguajes</li>
+                        </ol>
+                    </li><!-- termina elemento li, llamado programacion que inicio en la linea 36-->
+                </ul>   <!-- termina lista anidada de la linea 22-->
+            </li> 
+            <li>V&iacute;nculos</li>
+            <li>Mantenerse en contacto con viejos amigos</li>
+            <li>Es la tecnolog&iacute;a del futuro</li>
+        </ul> <!-- termina la lista desordenada de la linea 16-->
+    </body>
+</html>
